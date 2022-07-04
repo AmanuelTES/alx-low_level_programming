@@ -1,22 +1,27 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
-* main - prints the number from 00 to 99
+* main - Entry point
+*
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-int n, m, p;
-for (n = 48; n < 58; n++)
+int d, p, q;
+for (d = '0'; d < '9'; d++)
 {
-for (m = 48; m < 57; m++)
+for (p = d + 1; p <= '9'; p++)
 {
-for (p = 48; p < 57; p++)
+for (q = p + 1; q <= '9'; q++)
 {
-putchar(n);
-putchar(m);
+if ((p != d) != q)
+{
+putchar(d);
 putchar(p);
-if (n != 57 || m != 57 || p != 57)
-{
+putchar(q);
+if (d == '7' && p == '8')
+continue;
 putchar(',');
 putchar(' ');
 }
