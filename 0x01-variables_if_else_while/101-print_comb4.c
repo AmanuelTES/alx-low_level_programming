@@ -10,9 +10,13 @@ for (n = 48; n < 58; n++)
 {
 for (m = 48; m < 57; m++)
 {
+for (p = 48; p < 57; p++)
+}
+{
 putchar(n);
 putchar(m);
-if (n != 57 || m != 57)
+putchar(p);
+if (n != 57 || m != 57 || p != 57)
 {
 putchar(',');
 putchar(' ');
