@@ -8,7 +8,10 @@ int main(void);
 {
     char ch;
 
-    puts(ch = "\"programming is like building a multilingual puzzel");
+    puts(ch = "\"programming is like building a multilingual puzzel";ch);
+    {
+        putchar(ch)
+    }
     putchar ('\n');
     return (0);
 }
