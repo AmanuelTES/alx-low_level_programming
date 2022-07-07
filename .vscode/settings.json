@@ -4,5 +4,6 @@
     "betty.apikey": "undefined",
     "files.associations": {
         "main.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
