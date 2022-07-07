@@ -1,5 +1,8 @@
 {
     "betty.bettyapp": "undefined",
     "betty.username": "undefined",
-    "betty.apikey": "undefined"
+    "betty.apikey": "undefined",
+    "files.associations": {
+        "main.h": "c"
+    }
 }
