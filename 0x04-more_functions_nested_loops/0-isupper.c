@@ -8,14 +8,14 @@
 int main(void)
 {
 char c;
-c = 'A';
+c = 'Z';
 c = 'a';
 if (c >= 65 && c <= 90)
 {
 return (1);
 }
-else
+else 
 {
-    return (0);
+return (0);
 }
 }
