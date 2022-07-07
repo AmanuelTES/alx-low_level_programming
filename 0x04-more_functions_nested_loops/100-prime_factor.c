@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <math.h>
 /**
- * main - prime numbers
- *
+ * main - prints largest prime factor.
  * Return: Always 0.
  */
 int main(void)
 {
-unsigned int long n = 612852475143, a = (int) sqrt(n);
-while (1)
+long int n, fp;
+n = 612852475143;
+for (fp = 2; fp <= n; fp++)
 {
-if (n % a == 0)
+if (n % fp == 0)
 {
-printf("%lu \n", n / a);
-break;
+n /= fp;
+fp--;
 }
-a--;
 }
+printf("%ld\n", fp);
 return (0);
 }
