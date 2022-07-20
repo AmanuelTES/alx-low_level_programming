@@ -14,6 +14,6 @@ if (n == 0 || n == 1)
 {
 return (1);
 }
-retu
+return
 rn (n * factorial(n - 1));
 }
