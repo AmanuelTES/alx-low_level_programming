@@ -8,7 +8,7 @@
  */
 int wildcmp(char *s1, char *s2)
 {
-return (checker(s1, s2, 0, 0, -1));
+return (checker (s1, s2, 0, 0, -1));
 }
 /**
  * checkLast - check last char of s2 when s1 ends
